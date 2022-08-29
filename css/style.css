@@ -1,0 +1,53 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-image: url(https://cdn.pixabay.com/photo/2020/07/18/16/29/coffee-5417663_1280.png);
+}
+
+h1 {
+    font-size: 6rem;
+    color: whitesmoke;
+    text-align: center;
+    text-shadow: 10px 10px 5px black;
+    margin-top: 20px;
+    margin-bottom: 30px;
+
+}
+
+h2 {
+    font-size: 1.6rem;
+    color: whitesmoke;
+    text-align: left;
+    text-shadow: 10px 10px 5px black;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-right: 25px;
+}
+
+
+input, button {
+    display: flex;
+    text-align: center;
+    margin: auto;
+    font-size: 2rem;
+    border-radius: 8px;
+}
+
+button {
+    background-color: rgba(101, 72, 57, 0.8);
+    color: whitesmoke;
+}
+
+button:hover{
+    background-color: whitesmoke;
+    color: rgba(101, 72, 57, 0.8);
+}
+
+main{
+    display: flex;
+    flex-basis: auto;
+    justify-content: space-evenly;
+    margin: 0 50px 0 50px;
+} 
