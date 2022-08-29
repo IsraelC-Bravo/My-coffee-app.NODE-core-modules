@@ -26,6 +26,10 @@ h2 {
     padding-right: 25px;
 }
 
+img {
+    margin-top: 20px;
+}
+
 
 input, button {
     display: flex;
